@@ -1,0 +1,12 @@
+{
+  "domain": "tesla_fleet_push",
+  "name": "Tesla Fleet Push",
+  "version": "0.1.0",
+  "codeowners": ["@jakzo"],
+  "documentation": "https://www.home-assistant.io/integrations/tesla_fleet_push",
+  "dependencies": ["application_credentials", "http"],
+  "config_flow": true,
+  "iot_class": "cloud_push",
+  "loggers": ["tesla-fleet-api"],
+  "requirements": ["tesla-fleet-api==0.9.13"]
+}

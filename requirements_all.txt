@@ -556,6 +556,7 @@ av==13.1.0
 # homeassistant.components.axis
 axis==64
 
+# homeassistant.components.delonghi_dehumidifier
 # homeassistant.components.fujitsu_fglair
 ayla-iot-unofficial==1.4.7
 
@@ -2874,6 +2875,7 @@ temperusb==1.6.1
 # tensorflow==2.5.0
 
 # homeassistant.components.tesla_fleet
+# homeassistant.components.tesla_fleet_push
 # homeassistant.components.teslemetry
 # homeassistant.components.tessie
 tesla-fleet-api==0.9.13

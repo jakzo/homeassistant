@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Create Tesla Fleet API app",
+        "description": "Create a Tesla developer application according to the instructions in the expand in the [Tesla Fleet integration documentation](https://www.home-assistant.io/integrations/tesla_fleet/) but make the domain the domain of your internet-exposed Home Assistant server."
+      }
+    },
+    "error": {
+      "public_key_not_found": "No public key was found at /config/tesla_fleet_push/public_key.pem.",
+      "token_missing": "Tesla token endpoint response did not include an access token.",
+      "invalid_app_credentials": "The provided Tesla app credentials are invalid.",
+      "token_request_failed": "Tesla access token request failed with {status} {status_text}: {response}",
+      "token_network_error": "Network error while requesting a Tesla access token. Please check your network connection and try again.",
+      "unknown_error_token": "An unknown error occurred while requesting a Tesla access token. Please try again.",
+      "registration_failed": "Tesla app registration failed with {status} {status_text}: {response}",
+      "registration_network_error": "Network error while registering Tesla app. Please check your network connection and try again.",
+      "unknown_error_register": "An unknown error occurred while registering Tesla app. Please try again.",
+      "app_cred_not_loaded": "Application credentials component is not loaded.",
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]",
+      "reauth_successful": "[%key:common::config_flow::abort::reauth_successful%]"
+    }
+  }
+}
